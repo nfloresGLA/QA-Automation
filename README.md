@@ -412,3 +412,13 @@ A traves del uso de los localizadores <Locators> podemos
 identificar con que elemento GUI <web element> queremos
 trabajar agregandole el valor <target> de referencia
 que el localizador tenga asociado.
+
+### 5.3 - Localizador especial __Xpath__.
+> Es un lenguaje que permite construir expresiones
+que recorren y procesan un documento XML o el DOM de una
+aplicacion web. Es parecido a una expresion regular para
+seleccionar partes de un texto sin atributos. <br>
+Permite buscar y seleccionar teniendo en cuenta
+la jerarquia dentro del DOM.
+
+![image](https://user-images.githubusercontent.com/120741890/214423075-20798292-b2e0-4854-bdd2-b5d238824c67.png)
