@@ -77,3 +77,28 @@ desarrollo de un sistema".
 > __Patrones__ de diseño de pruebas:
 
 ![image](https://user-images.githubusercontent.com/120741890/214372227-b2e50be0-cff4-4fa0-88a1-cd85af087145.png)
+
+### 2.2 - PageObject
+
+> __Contexto__:
+
+Proyectos que requieran mas de un caso de prueba
+sobre la __misma funcionalidad__.
+
+> __Solucion__:
+
+Crear clase __independiente__ con los localizadores
+de objetos.
+
+> __Resultado__:
+
+Al cambiar un elemento web _se actualiza solo en la 
+clase de localizadores_ y __no__ en __todas__ las pruebas.
+
+> __Problemas__: 
+- Suelen __extenderse__ demasiado las clases.
+- __No__ cumple con el principio de unica responsabilidad.
+
+> __Diagrama de clase__.
+
+![image](https://user-images.githubusercontent.com/120741890/214373976-6dd848bc-3aff-4905-b8e9-6c4366e9943c.png)
