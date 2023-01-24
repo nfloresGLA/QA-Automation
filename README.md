@@ -268,3 +268,105 @@ al sistema. Tambien interpreta imagenes y las compara.
 > __Composicion__.
 
 ![image](https://user-images.githubusercontent.com/120741890/214395154-cb96c354-b426-423b-a1fe-37ff3dd9419d.png)
+
+### 4.3 - Estructuracion de Pybot
+> Esta dada por los CP que son agrupados por funcionalidad
+dentro de archivos Python "Test Class".
+El framework hace uso del __layout__ de funciones que
+ofrece la libreria __Unittest__.
+
+~~~ py
+# (nombre de la Clase, de donde hereda)
+Class Pruebas(Framework, unittest):
+    def setUp(self):
+        Actions
+    def test_000_descripcion(self):
+        self.flujo_principal()
+    def test_001_descripcion(self):
+        self.flujo.alternativo()
+    def flujo_principal(self):
+        Steps # Defino el camino principal
+    def flujo_alternativo(self):
+        Steps # Defino el camino alternativo
+    def tearDown(self):
+        Actions # Defino el cierre de la ejecucion de la prueba
+~~~
+
+> __Estructura__.
+
+#### Representado por __niveles__ de mayor a menor.
+
+📁 1. __Carpeta principal__.
+
+ ➞ Almacena la herramienta Pybot y los proyectos.
+___
+📁 2. __Drivers__.
+
+ ➞ Carpeta autogenerada luego de la primera ejecucion
+de un CP. Controlan los browsers.
+___
+📁 2. __functions__.
+
+ ➞ Contiene todos los archivos para automatizar
+utilizando Python.
+
+📁 3. src.
+
+ ➞ Contiene todos los recursos para la herramienta
+de ejecucion.
+___
+
+📁 2. __projects__.
+
+ ➞ Almacena todos los archivos de los proyectos.
+
+📁 3. __nombre del proyecto__.
+
+ ➞ Almacena todos los archivos de un proyecto. <br>
+El nombre no debera tener espacios.
+
+📁 4. __src__.
+
+ ➞ Almacena todos los archivos de un proyecto.
+
+📁 5. dowloands.
+
+ ➞ Almacena todos los archivos descargados durante la ejecucion.
+
+📁 5. files.
+
+ ➞ Almacena archivos varios. Puede usarse para guardar
+evidencia, archivos de config o funciones.
+
+📁 5. images.
+
+ ➞ Almacena imagenes que pueden utilizarse para
+automatizacion por imagenes con Sikuli.
+
+📁 5. outpus.
+
+ ➞ Almacena archivos de salida de los scripts.
+Puede utilizarse para la generacion de reportes csv u otros.
+
+📁 5. resources.
+
+ ➞ Almacena archivos .xlsx que contienen datos de inputs
+necesarios para los casos de prueba automatizados.
+
+📁 5. pages.
+
+ ➞ Almacena archivos .json con los elementos capturados de una aplicacion web.
+
+📁 5. tests.
+
+ ➞ Almacena todos los archivos Python con las pruebas
+automaticas.
+
+___
+
+📁 2. __venv__.
+
+ ➞ Contiene un entorno virtual de Python.
+Su generacion es opcional. <br>
+Pero es necesaria generarla para los procesos y las
+actividades del framework.
