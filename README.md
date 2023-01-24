@@ -208,3 +208,18 @@ tiempo de ejecucion.
 - Competente: Posee gran cantidad de librerias multiproposito.
 
 - Libre: Es de codigo abierto.
+
+### 3.4 ¿Que es un framework?
+> Podria definirse como un _entorno_ de trabajo
+predispuesto, que posee ciertas herramientas, _criterios_ y
+caracteristicas que resultan utiles para __agilizar__ el
+desarrollo de un proyecto.
+
+Puede reducir drasticamente la aparicion de errores al
+desarrollar nuevos componentes.
+
+Los framework se caracterizan por seguir un __conjunto
+de practicas y criterios de forma estandarizadas__.
+
+Por lo general son construidos en base a la experiencia
+obtenida de trabajos realizados anteriormente.
