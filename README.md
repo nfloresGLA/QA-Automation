@@ -178,3 +178,21 @@ Se requiere reglas claras de uso.
 > Es un lenguaje de programacion __interpretado__ de tipado
 _dinamico_, cuya filosofia plantea una sintaxis que "_favorezca_" a un codigo __legible__. <br>
 Es un lenguaje __multiproposito__, __multiparadigma__ y se encuentra disponible en varias plataformas.
+
+### 3.2 - Caracteristicas de Python.
+
+> __Caracteristicas__:
+
+- __Interpretado__: Se ejecuta sin necesidad de ser 
+procesado por un compilador y se detectan los errores
+en tiempo de ejecucion.
+
+- __Multiparadigma__: Soporta programacion funcional,
+imperativa y programacion orientada a objetos.
+
+- __Multiplataforma__: Disponible para windows, Linux o Mac.
+
+- __Tipado dinamico__: Las variables se comprueban en
+tiempo de ejecucion.
+
+- __Gratuito__: No se requieren licencias para utilizarlo.
