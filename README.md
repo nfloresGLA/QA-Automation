@@ -224,3 +224,47 @@ de practicas y criterios de forma estandarizadas__.
 
 Por lo general son construidos en base a la experiencia
 obtenida de trabajos realizados anteriormente.
+
+### 4.2 - Pybot Framework
+
+> ¿_Que es_?
+
+Es un framework construido en python y compuesto
+por multiples librerias que permiten automatizar
+pruebas sobre diversas plataformas.
+Esta basado en el patron Page Object, pero con el avance
+de su desarrollo se le incorporo algunas caracteristicas
+de otros patrones tales como ScreenPlay y Command.
+
+> ¿_Cuales son sus caracteristicas_?
+
+- La solucion es muy flexible.
+- Facil de integrar con otras herramientas.
+- Compatible con diferentes metodologias de Testing (Cucumber)
+- Preparado para adaptarse a procesos CI/CD
+- Integra reportes en sus librerias.
+- Es seguro debido a su modo de almacenar credenciales.
+- Escalable.
+- Facil e intuitivo de aprender.
+
+> ¿_Cuales son sus __principales__ librerias_?
+
+- __Unittest__: _Funciones_ que permiten el _armado_ del __cuerpo__
+de las pruebas.
+
+- __Pytest__: _Facilita_ la __ejecucion de las pruebas__ y la generacion de metadatos __resultantes__.
+
+- __Request__: Ejecuta llamados a servicios API REST.
+
+- __Allure__: Complementa el armado de pruebas con metadatos
+que luego seran utilizadas para generar reportes.
+
+- __Selenium__: Incorpora WebDrivers para la automatizacion
+de Browsers (Chrome, Edge y Firebox)
+
+- __Lackey__: Funciones para la automatizacion de inputs
+al sistema. Tambien interpreta imagenes y las compara.
+
+> __Composicion__.
+
+![image](https://user-images.githubusercontent.com/120741890/214395154-cb96c354-b426-423b-a1fe-37ff3dd9419d.png)
