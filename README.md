@@ -58,3 +58,22 @@ interior de un programa o sistema.
 
 ---
 
+## 2. __Patrones__.
+
+### 2.1 - Patrones de diseño de pruebas.
+> Conjunto de metodos para la definicion de jerarquias
+de clases que permiten dar solucion a los problemas
+mas comunes que se presentan en el desarrollo
+de sistemas informaticos eficientes, flexibles y evolutivos.
+
+"Es un conjunto de buenas practicas que agilizan el 
+desarrollo de un sistema".
+
+> ¿__Cuales son sus beneficios__?
+- _Reducir_ la __curva de dificultad__ para su adquisicion.
+- Generar codigo _entendible_ y _estandarizado_.
+- _Reducir_ los __costos__ de mantenimiento.
+
+> __Patrones__ de diseño de pruebas:
+
+![image](https://user-images.githubusercontent.com/120741890/214372227-b2e50be0-cff4-4fa0-88a1-cd85af087145.png)
