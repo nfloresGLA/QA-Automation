@@ -168,3 +168,13 @@ Se requiere reglas claras de uso.
 > __Diagrama de clase__.
 
 ![image](https://user-images.githubusercontent.com/120741890/214379249-5f02ba33-bbec-4cb2-a946-b705c983e8c9.png)
+
+---
+
+## 3. __Python__.
+
+### 3.1 - Conociendo Python.
+
+> Es un lenguaje de programacion __interpretado__ de tipado
+_dinamico_, cuya filosofia plantea una sintaxis que "_favorezca_" a un codigo __legible__. <br>
+Es un lenguaje __multiproposito__, __multiparadigma__ y se encuentra disponible en varias plataformas.
