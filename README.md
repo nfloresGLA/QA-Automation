@@ -384,3 +384,31 @@ proyectos.
 Los objetos deben ser almacenados dentro del archivo con extension .__json__ contenidos en la carpeta de _pages_ del proyecto.
 
 ![image](https://user-images.githubusercontent.com/120741890/214415170-2e8caef9-693f-491c-89cf-7a845cb915a4.png)
+
+### 5.2 - Tipos de localizadores.
+> Es un __comando__ que le dice a Selenium que _elementos_ de la interfaz 
+necesita para operar y la correcta identificacion de estos elementos
+__es un requisito previo__ a la creacion de una secuencia de comandos de automatizacion.
+
+> __Tipos__.
+- __ID__: Es la mejor opcion siempre que sean unicos e invariantes en el tiempo.
+- __Name__: El atributo no tiene que ser unico, por lo que el uso de este
+localizador no garantiza que las pruebas se produzcan de la manera deseada.
+- __Xpath__: Hace uso de la estructura XML que posee todo documento html 
+para asi hacer referencia a los elementos mediante una ruta que puede 
+ser __absoluta__ o _relativa_.
+
+Existe el _problema_ que cualquier __introduccion de un nuevo elemento__
+ o la __reorganizacion de los existentes__ provoque que las __referencias cambien__, 
+ lo que __puede invalidar__ las pruebas grabadas anteriormente.
+
+> Ademas __Selenium__ admite:
+- __CSS Selector__: Consiste en identificar los elementos por sus propiedades de css.
+- __DOM__ (Document Object Model): Es similar al Xpath, pero
+utiliza el DOM de la pagina para hacer referencia a los elementos
+
+> __Localizar__.
+A traves del uso de los localizadores <Locators> podemos
+identificar con que elemento GUI <web element> queremos
+trabajar agregandole el valor <target> de referencia
+que el localizador tenga asociado.
