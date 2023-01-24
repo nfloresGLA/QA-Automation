@@ -196,3 +196,15 @@ imperativa y programacion orientada a objetos.
 tiempo de ejecucion.
 
 - __Gratuito__: No se requieren licencias para utilizarlo.
+
+### 3.3 - Motivos para elegirlo.
+
+> __Motivos__
+
+- Amigable: Es facil de aprender y mantener.
+
+- Comunidad: Tiene soporte provisto por la comunidad.
+
+- Competente: Posee gran cantidad de librerias multiproposito.
+
+- Libre: Es de codigo abierto.
