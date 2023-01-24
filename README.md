@@ -102,3 +102,33 @@ clase de localizadores_ y __no__ en __todas__ las pruebas.
 > __Diagrama de clase__.
 
 ![image](https://user-images.githubusercontent.com/120741890/214373976-6dd848bc-3aff-4905-b8e9-6c4366e9943c.png)
+
+
+### 2.3 - ScreenPlay
+
+> __Contexto__:
+
+Proyecto de pruebas automatizadas que tengan
+mas de un caso de prueba sobre la misma
+funcionalidad y de __gran tamaño__.
+
+> __Solucion__:
+
+Adicional a la clase contenedora de los localizadores
+de objetos, se crean clases _encargadas_ de realizar
+__acciones__ y otra con tareas.
+
+> __Resultado__:
+
+_Se reduce tamaño de clases_.
+Se estructura el proyecto de manera
+mas __organizada__.
+
+> __Problemas__:
+
+- Suele resultado __complejo__ el entendimiento para su implementacion
+
+> __Diagrama de clase__.
+
+![image](https://user-images.githubusercontent.com/120741890/214375999-ebab841b-1a4d-4531-acf0-43930b30f40a.png)
+
