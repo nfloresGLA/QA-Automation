@@ -40,3 +40,21 @@ __repetitivas__ en secciones _estables_ y _fijas_.
 
 * El enfoque en este curso sera de automatizar
 solo pruebas de __integracion__.
+
+### 1.3 - Scripting.
+> Es un conjunto de instrucciones escritas en codigos
+que se encargan de ejecutar diversas funciones en el
+interior de un programa o sistema.
+
+> ¿_Cual es su funcion_?
+- Combinar componentes.
+- Interactuar con el sistema operativo o con el usuario.
+- Controlar un determinado programa, aplicacion o sistema.
+
+> ¿_Que tareas podemos automatizar con el scripting_?
+- __Generacion de datos__: para la ejecucion de pruebas.
+- __Limpieza de datos__: Datos en BD y caches.
+- __Testing en datos__: Realizar pruebas a un gran volumen de datos.
+
+---
+
