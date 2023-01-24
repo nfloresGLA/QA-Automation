@@ -370,3 +370,17 @@ ___
 Su generacion es opcional. <br>
 Pero es necesaria generarla para los procesos y las
 actividades del framework.
+
+---
+
+## 5. Localizadores.
+
+### 5.1 - Repositorio de objetos.
+> Garantiza la _administracion_, _reutilizacion_ y _fiabilidad_ de los elementos de una IU, al capturarlos como objetos en un repositorio al estilo DOM, _compartible_ entre
+proyectos.
+
+> __Introduccion__.
+
+Los objetos deben ser almacenados dentro del archivo con extension .__json__ contenidos en la carpeta de _pages_ del proyecto.
+
+![image](https://user-images.githubusercontent.com/120741890/214415170-2e8caef9-693f-491c-89cf-7a845cb915a4.png)
