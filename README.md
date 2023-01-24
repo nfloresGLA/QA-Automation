@@ -132,3 +132,39 @@ mas __organizada__.
 
 ![image](https://user-images.githubusercontent.com/120741890/214375999-ebab841b-1a4d-4531-acf0-43930b30f40a.png)
 
+### 2.4 Command.
+> Se podria definir como complemento, ya que puede
+ser implementado en conjunto de otros patrones
+permitiendo escalar el tamaño de las pruebas segun
+lo requiera el proyecto.
+
+> __Contexto__:
+
+Proyectos de pruebas automatizadas que ya esten
+usando otros patrones o cualquiera que tenga mas de
+un caso de prueba sobre la misma funcionalidad.
+
+> __Solucion__:
+
+Crear una clase que contenga un comando con el paso
+a paso de la prueba, adicional a una clase con localizadores
+de objetos. Cada clase tendria responsabilidades
+independientes.
+
+> __Resultado__:
+
+Al cambiar un elemento web se actualiza solo en la clase
+de localizadores y no en todas las pruebas.
+Las clases _command_ son representativas en funcion
+a la funcionalidad.
+
+
+> __Problemas__:
+
+Dificultad en el mantenimiento ya que este patron es
+complementario a otros patrones.
+Se requiere reglas claras de uso.
+
+> __Diagrama de clase__.
+
+![image](https://user-images.githubusercontent.com/120741890/214379249-5f02ba33-bbec-4cb2-a946-b705c983e8c9.png)
