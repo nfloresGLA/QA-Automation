@@ -422,3 +422,91 @@ Permite buscar y seleccionar teniendo en cuenta
 la jerarquia dentro del DOM.
 
 ![image](https://user-images.githubusercontent.com/120741890/214423075-20798292-b2e0-4854-bdd2-b5d238824c67.png)
+
+---
+
+## Instalacion de Pybot - __Requisitos previos__.
+
+~~~ ts
+> Tener instalado PyCharm.
+// Version de esta guia: PyCharm 2022.3.1 (Community Edition)
+> Tener instalado Python
+// Version de esta guia: Python 3.9.9
+> Tener bien configuradas las variables de entorno
+// Ver detalle mas abajo.
+~~~
+
+* __Variables de entorno__ .
+
+###  *_Despues de instalar Python correctamente_.
+
+1. Ingresar en:
+
+![image](https://user-images.githubusercontent.com/120741890/214583124-16506e07-cb8b-42b4-b333-b9e3f63fad25.png)
+
+2. Doble click sobre "__Path__"
+
+![image](https://user-images.githubusercontent.com/120741890/214583684-4445f190-54d4-4f5b-8c16-3a59bea9671f.png)
+
+3. Verificar de tener dentro del __path__ estos valores.
+
+* En caso de no tener alguno agregarlos.
+
+![image](https://user-images.githubusercontent.com/120741890/214582731-9b0094aa-526e-4266-916c-50e4b60971fc.png)
+
+---
+
+### Instalacion de Pybot - Pasos.
+
+1. __Dentro__ de la 📁 carpeta: __functions__ en una terminal _*_
+
+~~~ py
+ pip install -r "requirements for win.txt" 
+~~~
+
+~~~ py
+# * Una manera facil de acceder a la consola:
+# Click derecho: mas opciones / abrir en terminal
+~~~
+
+* Tarda alrededor de 2/3 minutos la instalacion de los paquetes
+
+
+2. Entrar en __PyCharm__
+### Vista del __primer inicio__
+
+![image](https://user-images.githubusercontent.com/120741890/214571409-7f43f438-1270-49e1-8439-2f3cbd376e9f.png)
+
+* Click en _Open_ para elegir la carpeta del proyecto
+
+![image](https://user-images.githubusercontent.com/120741890/214572914-7949b93c-6ebb-4d2d-9269-977268adcdef.png)
+
+* _¡Importante_! para facilitar la agregacion del curso
+agregar la carpeta de CursoQA al directorio de C: como
+se muestra en pantalla.
+
+* Seleccionar CursoQA (tiene que quedar como directory)
+
+![image](https://user-images.githubusercontent.com/120741890/214573249-43ca0554-6411-422d-8105-9e4df4bc9e8a.png)
+
+* Click en "Confiar en el directorio" -> __Trust Project__
+
+* Esto nos cargara el projecto del framework
+(__Puede demorar un poco__)
+
+![image](https://user-images.githubusercontent.com/120741890/214580052-67978dbf-54b4-44b1-9c65-f802c378f577.png)
+
+* Asegurarse que la 📁 carpeta sea CursoQA y no Functions
+(Subrayado en __amarillo__)
+
+* __Asegurarse__ que los _niveles_ sean:
+- 1: __CursoQA__
+- 2: __Functions__
+- 3: __.idea / src__
+
+* Los niveles corresponden al subrayado en __rojo__.
+
+__A partir  de este momento se puede seguir en el video__:
+[QA Automation 6x3](https://www.youtube.com/watch?v=zn8deBB8DXY&list=PLBOWOYkuapWjOB8ZNjZ9hlz4k1CK3bEho&index=20)
+
+---
