@@ -432,13 +432,15 @@ la jerarquia dentro del DOM.
 // Version de esta guia: PyCharm 2022.3.1 (Community Edition)
 > Tener instalado Python
 // Version de esta guia: Python 3.9.9
+> Descargar el archivo CursoQA y agregarlo en C:\
+// Nos quedaria el path de ruta: "C:\CursoQA"
 > Tener bien configuradas las variables de entorno
 // Ver detalle mas abajo.
 ~~~
 
 * __Variables de entorno__ .
 
-###  *_Despues de instalar Python correctamente_.
+###  *_Despues de instalar Python <u>correctamente_</u>.
 
 1. Ingresar en:
 
@@ -506,7 +508,13 @@ se muestra en pantalla.
 
 * Los niveles corresponden al subrayado en __rojo__.
 
-__A partir  de este momento se puede seguir en el video__:
-[QA Automation 6x3](https://www.youtube.com/watch?v=zn8deBB8DXY&list=PLBOWOYkuapWjOB8ZNjZ9hlz4k1CK3bEho&index=20)
 
+<p>
+ A partir  de este momento se puede seguir en el video:
+    <a 
+        href="https://www.youtube.com/watch?v=zn8deBB8DXY&list=PLBOWOYkuapWjOB8ZNjZ9hlz4k1CK3bEho&index=20" 
+        target="_blank">
+        QA Automation 6x3
+    </a>
+</p>
 ---

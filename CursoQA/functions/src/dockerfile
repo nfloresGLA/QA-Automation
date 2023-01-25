@@ -1,0 +1,30 @@
+FROM jenkins/jenkins:alpine
+USER root
+RUN apk add tzdata
+RUN cp /usr/share/zoneinfo/America/Argentina/Buenos_Aires /etc/localtime
+RUN echo -e "http://dl-cdn.alpinelinux.org/alpine/v3.12/community\nhttp://dl-cdn.alpinelinux.org/alpine/v3.12/main" >> /etc/apk/repositories  
+RUN echo -e "http://dl-cdn.alpinelinux.org/alpine/edge/community\nhttp://dl-cdn.alpinelinux.org/alpine/v3.9/main" >> /etc/apk/repositories  
+RUN apk update
+RUN apk upgrade
+
+RUN apk add --no-cache python3-dev=3.6.9-r3 \
+    && apk add py-pip \
+    && pip3 install --upgrade pip 
+
+WORKDIR /Jenkins
+COPY . /Jenkins
+
+RUN apk add --no-cache bash 
+RUN apk add --no-cache bash-completion
+RUN apk add --no-cache --upgrade bash
+RUN apk add gcc libc-dev g++ libffi-dev libxml2
+RUN apk add build-base unixodbc-dev freetds-dev
+ADD odbcinst.ini /etc/odbcinst.ini
+RUN apk add chromium>89.0.4389.72-r0
+RUN apk add chromium-chromedriver>89.0.4389.72-r0
+RUN pip3 install -r requerements.txt 
+
+
+    
+
+
