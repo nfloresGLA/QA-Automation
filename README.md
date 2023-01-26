@@ -454,7 +454,7 @@ la jerarquia dentro del DOM.
 
 * En caso de no tener alguno agregarlos.
 
-![image](https://user-images.githubusercontent.com/120741890/214582731-9b0094aa-526e-4266-916c-50e4b60971fc.png)
+![image](https://user-images.githubusercontent.com/120741890/214864844-c5803bd9-eaaa-45a6-ba7f-94ae2ae6c3d9.png)
 
 ---
 
@@ -517,4 +517,5 @@ se muestra en pantalla.
         QA Automation 6x3
     </a>
 </p>
+
 ---
